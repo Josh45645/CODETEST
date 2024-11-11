@@ -170,7 +170,7 @@ body{
 
    
 
-  .freedompost{
+   .freedompost{
     display: flex;
     justify-content: center;
     padding: 10vh 5vh 5vh 5vh;
@@ -332,5 +332,7 @@ body{
 
 .fdexample .fdexampleimg:hover{
     opacity: 1;
+    filter: blur(0px);
+}
     filter: blur(0px);
 }
