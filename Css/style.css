@@ -170,7 +170,7 @@ body{
 
    
 
-   .freedompost{
+  .freedompost{
     display: flex;
     justify-content: center;
     padding: 10vh 5vh 5vh 5vh;
@@ -192,9 +192,6 @@ body{
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 1rem;
-   }
-   .freedompost img{
-    width: 40%;
    }
 
    .freedompost button {
