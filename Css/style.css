@@ -133,7 +133,7 @@ body{
 .CYN-About h1{
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 6vh;
     padding-bottom: vh;
 }
 
@@ -143,8 +143,27 @@ body{
     padding-top: 2vh;
 }
 
-.CYN img{
+.cynimg{
+    display: flex;
     width: 80%;
+    margin: 0 auto;
+}
+
+.cynimg img{
+    width: 26%;
+    height: auto;
+    transition: transform .5s;
+}
+
+.cynimg:hover img{
+    opacity: .5;
+    filter: blur(1rem);
+}
+
+.CYN img:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.1);
 }
 
 .CYN button {
@@ -315,9 +334,10 @@ body{
 }
 
 .fdexample img{
-    width: 24rem;
+    width: 18rem;
     height: auto;
     transition: 400ms;
+    transition: transform .5s;
 }
 
 .fdexampleBot .fdexampleimg{
@@ -332,6 +352,11 @@ body{
 .fdexample .fdexampleimg:hover{
     opacity: 1;
     filter: blur(0px);
+    transform: scale(1.1);
 }
+
+.fdexample .fdexampleimg:hover{
+    opacity: 1;
     filter: blur(0px);
+    transform: scale(1.1);
 }
