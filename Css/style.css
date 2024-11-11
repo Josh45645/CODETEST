@@ -318,3 +318,22 @@ body{
     border: none
 }
 
+.fdexample img{
+    width: 18rem;
+    height: auto;
+    transition: 400ms;
+}
+
+.fdexampleBot .fdexampleimg{
+    margin-top: -15rem;
+}
+
+.fdexample:hover .fdexampleimg{
+    opacity: .5;
+    filter: blur(1rem);
+}
+
+.fdexample .fdexampleimg:hover{
+    opacity: 1;
+    filter: blur(0px);
+}
